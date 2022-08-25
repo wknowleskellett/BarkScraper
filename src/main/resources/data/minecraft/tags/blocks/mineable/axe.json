@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "barkscraper:oak_bark",
+    "barkscraper:spruce_bark",
+    "barkscraper:birch_bark",
+    "barkscraper:jungle_bark",
+    "barkscraper:acacia_bark",
+    "barkscraper:dark_oak_bark",
+    "barkscraper:warped_bark",
+    "barkscraper:crimson_bark"
+  ]
+}

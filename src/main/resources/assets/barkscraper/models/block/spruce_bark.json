@@ -1,0 +1,6 @@
+{
+    "parent": "barkscraper:block/bark",
+    "textures": {
+        "wood": "minecraft:block/spruce_log"
+    }
+}

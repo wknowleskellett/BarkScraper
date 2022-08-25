@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "creatortools",
-  "version": "${version}",
+  "id": "barkscraper",
+  "version": "0.0.1",
 
-  "name": "Creator Tools",
-  "description": "This mod makes datapack development more practical.",
+  "name": "Bark Scraper",
+  "description": "This is my first test mod. Scrape bark off trees.",
   "authors": [
     "William Knowles-Kellett"
   ],
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.williamknowleskellett.creatortools.CreatorTools"
+      "dev.williamknowleskellett.barkscraper.BarkScraper"
     ]
   },
   "mixins": [
-    "creatortools.mixins.json"
+    "barkscraper.mixins.json"
   ],
 
   "depends": {
