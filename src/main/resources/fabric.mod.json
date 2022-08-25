@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/creatortools/icon.png",
+  "icon": "assets/barkscraper/icon.png",
 
   "environment": "*",
   "entrypoints": {
