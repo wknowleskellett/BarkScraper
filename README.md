@@ -7,7 +7,7 @@ and play with the bark that drops off.
 
 ## Setup
 
-Find the most recent release for your minecraft version in the panel on the right.
+For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 
 ## License
 
