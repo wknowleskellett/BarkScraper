@@ -1,5 +1,21 @@
 package dev.williamknowleskellett.barkscraper;
 
+// BarkScraper Minecraft Mod
+// Copyright (C) 2023 William Knowles-Kellett
+
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of version 2 of the GNU General Public License as published by
+// the Free Software Foundation.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+
+// You should have received a copy of the GNU General Public License along
+// with this program; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import net.minecraft.block.*;
@@ -25,7 +41,6 @@ import java.util.function.Function;
 
 public class BarkBlock extends Block implements Waterloggable {
     private static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
-    private static final float field_31194 = 1.0f;
     private static final VoxelShape UP_SHAPE = Block.createCuboidShape(0.0, 15.0, 0.0, 16.0, 16.0, 16.0);
     private static final VoxelShape DOWN_SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 1.0, 16.0);
     private static final VoxelShape EAST_SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 1.0, 16.0, 16.0);

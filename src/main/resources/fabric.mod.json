@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "barkscraper",
-  "version": "0.0.1",
+  "version": "${version}",
 
   "name": "Bark Scraper",
-  "description": "This is my first test mod. Scrape bark off trees.",
+  "description": "Scrape bark off trees.",
   "authors": [
     "William Knowles-Kellett"
   ],
@@ -13,7 +13,7 @@
     "sources": "https://github.com/wknowleskellett/CreatorTools"
   },
 
-  "license": "CC0-1.0",
+  "license": "GNU GPLv2",
   "icon": "assets/barkscraper/icon.png",
 
   "environment": "*",
@@ -27,9 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric-api": "*",
-    "minecraft": "~1.19",
+    "minecraft": "1.19.2",
     "java": ">=17"
   },
   "suggests": {

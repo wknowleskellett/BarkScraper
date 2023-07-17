@@ -23,7 +23,6 @@ classes/
 bin/
 .classpath
 .project
-*.code-workspace
 
 # macos
 
@@ -32,3 +31,10 @@ bin/
 # fabric
 
 run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
